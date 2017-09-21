@@ -15,7 +15,7 @@ describe('#guess', () => {
         result = game.guess();
         game.lower();
         result = game.guess();
-        game.greater();
+        game.greater();		
         result = game.guess();
         game.greater();
         result = game.guess();
